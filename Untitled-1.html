@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Data Table</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .table-dark-custom {
+            background-color: black !important;
+            color: white;
+            border: 2px solid black;
+        }
+        .table-dark-custom th,
+        .table-dark-custom td {
+            border: 2px solid black !important;
+        }
+        .heading {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h2 class="heading">Household Sample Data Set</h2>
+        <table class="table table-dark-custom">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Time</th>
+                    <th>Household</th>
+                    <th>Production</th>
+                    <th>Consumption</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><th>1</th><td>05:10</td><td>H1</td><td>1126</td><td>635</td></tr>
+                <tr><th>2</th><td>05:10</td><td>H2</td><td>860</td><td>470</td></tr>
+                <tr><th>3</th><td>05:10</td><td>H3</td><td>1130</td><td>271</td></tr>
+                <tr><th>4</th><td>05:10</td><td>H4</td><td>1044</td><td>814</td></tr>
+                <tr><th>5</th><td>05:10</td><td>H5</td><td>121</td><td>666</td></tr>
+                <tr><th>6</th><td>05:10</td><td>H6</td><td>1238</td><td>530</td></tr>
+                <tr><th>7</th><td>05:10</td><td>H7</td><td>1482</td><td>287</td></tr>
+                <tr><th>8</th><td>05:10</td><td>H8</td><td>1396</td><td>299</td></tr>
+                <tr><th>9</th><td>05:10</td><td>H9</td><td>871</td><td>863</td></tr>
+                <tr><th>10</th><td>05:10</td><td>H10</td><td>130</td><td>861</td></tr>
+                <tr><th>11</th><td>05:15</td><td>H11</td><td>1190</td><td>640</td></tr>
+                <tr><th>12</th><td>05:15</td><td>H12</td><td>890</td><td>480</td></tr>
+                <tr><th>13</th><td>05:15</td><td>H13</td><td>1145</td><td>278</td></tr>
+                <tr><th>14</th><td>05:15</td><td>H14</td><td>1070</td><td>825</td></tr>
+                <tr><th>15</th><td>05:15</td><td>H15</td><td>135</td><td>670</td></tr>
+                <tr><th>16</th><td>05:15</td><td>H16</td><td>1260</td><td>540</td></tr>
+                <tr><th>17</th><td>05:15</td><td>H17</td><td>1500</td><td>290</td></tr>
+                <tr><th>18</th><td>05:15</td><td>H18</td><td>1400</td><td>310</td></tr>
+                <tr><th>19</th><td>05:15</td><td>H19</td><td>880</td><td>870</td></tr>
+                <tr><th>20</th><td>05:15</td><td>H20</td><td>140</td><td>870</td></tr>
+                <tr><th>21</th><td>05:20</td><td>H21</td><td>1180</td><td>630</td></tr>
+                <tr><th>22</th><td>05:20</td><td>H22</td><td>850</td><td>460</td></tr>
+                <tr><th>23</th><td>05:20</td><td>H23</td><td>1120</td><td>265</td></tr>
+                <tr><th>24</th><td>05:20</td><td>H24</td><td>1030</td><td>800</td></tr>
+                <tr><th>25</th><td>05:20</td><td>H25</td><td>125</td><td>660</td></tr>
+                <tr><th>26</th><td>05:20</td><td>H26</td><td>1220</td><td>520</td></tr>
+                <tr><th>27</th><td>05:20</td><td>H27</td><td>1450</td><td>285</td></tr>
+                <tr><th>28</th><td>05:20</td><td>H28</td><td>1380</td><td>295</td></tr>
+                <tr><th>29</th><td>05:20</td><td>H29</td><td>860</td><td>860</td></tr>
+                <tr><th>30</th><td>05:20</td><td>H30</td><td>135</td><td>860</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<head>
+    <title>Energy Data Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: black;
+            color: #ffffff;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+        }
+        th {
+            background-color: grey;
+        }
+        h2 {
+            text-align: center;
+            color: rgb(208, 39, 39);
+        }
+    </style>
+</head>
+<body>
+    <h2>Energy Data Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Production</th>
+                <th>Consumption</th>
+                <th>Price</th>
+                <th>Set Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>05:10</td><td>13850</td><td>9228</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:11</td><td>12431</td><td>11297</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:12</td><td>18226</td><td>9465</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:13</td><td>8996</td><td>10605</td><td>18.45</td><td>18.45</td></tr>
+            <tr><td>05:14</td><td>11022</td><td>9365</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:15</td><td>11461</td><td>11581</td><td>19.00</td><td>19.00</td></tr>
+            <tr><td>05:16</td><td>16264</td><td>10380</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:17</td><td>16187</td><td>12158</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:18</td><td>11240</td><td>11513</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:19</td><td>10011</td><td>9112</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:20</td><td>12179</td><td>11888</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:21</td><td>11859</td><td>9364</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:22</td><td>11291</td><td>9244</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:23</td><td>12524</td><td>12341</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:24</td><td>9626</td><td>11179</td><td>18.81</td><td>18.81</td></tr>
+            <tr><td>05:25</td><td>10836</td><td>11179</td><td>19.75</td><td>19.75</td></tr>
+            <tr><td>05:26</td><td>14426</td><td>10801</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:27</td><td>11329</td><td>9451</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:28</td><td>12339</td><td>12341</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:29</td><td>11736</td><td>11773</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:30</td><td>13999</td><td>11965</td><td>18.69</td><td>18.69</td></tr>
+            <tr><td>05:31</td><td>13099</td><td>9356</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:32</td><td>13907</td><td>9356</td><td>10.00</td><td>10.00</td></tr>
+            <tr><td>05:33</td><td>14659</td><td>10926</td><td>10.00</td><td>10.00</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
